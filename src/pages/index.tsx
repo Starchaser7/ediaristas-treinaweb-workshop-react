@@ -9,9 +9,9 @@ export default function Home() {
     <div>
       <SafeEnvironment />
       <PageTitle
-        title={'Sei lá mano, testando'}
+        title={'Conheça os profissionais'}
         subtitle={
-          'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti consequuntur quam officiis eligendi eos sint nihil odit omnis deserunt aspernatur voluptates et, nisi voluptatibus vitae deleniti earum voluptatum tenetur esse.'
+          'Preencha seu endereço e veja todos os profissionais da sua localidade'
         }
       />
       <UserInformation
