@@ -3,6 +3,7 @@ import styles from '@styles/Home.module.css';
 import SafeEnvironment from 'ui/components/feedback/SafeEnvironment/SafeEnvironment';
 import PageTitle from 'ui/components/data-display/PageTitle/PageTitle';
 import UserInformation from 'ui/components/data-display/UserInformation/UserInformation';
+import TextFieldMask from 'ui/components/inputs/TextFieldMask/TextFieldMask';
 
 export default function Home() {
   return (
@@ -14,6 +15,13 @@ export default function Home() {
           'Preencha seu endereço e veja todos os profissionais da sua localidade'
         }
       />
+      <TextFieldMask
+        mask={'99.999-999'}
+        label={'Digite aqui seu CEP'}
+        fullWidth
+        variant={'outlined'}
+      />
+
       <UserInformation
         picture={'https://github.com/Starchaser7.png'}
         name={'Eduardo'}
